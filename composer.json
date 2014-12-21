@@ -3,6 +3,7 @@
   "description": "1C-Bitrix - Doctrine 2 user field integration",
   "keywords": ["1C-Bitrix", "Doctrine 2", "user field"],
   "homepage": "https://github.com/studiofact/doctrine-userfield",
+  "type": "library",
   "license": "MIT",
   "authors": [
     {
@@ -15,5 +16,10 @@
   },
   "autoload": {
     "psr-0": { "": "src/" }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    }
   }
 }
