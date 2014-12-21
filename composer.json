@@ -1,0 +1,19 @@
+{
+  "name": "citfact/doctrine-userfield",
+  "description": "1C-Bitrix - Doctrine 2 user field integration",
+  "keywords": ["1C-Bitrix", "Doctrine 2", "user field"],
+  "homepage": "https://github.com/studiofact/doctrine-userfield",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kulichkin Denis",
+      "email": "onexhovia@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3"
+  },
+  "autoload": {
+    "psr-0": { "": "src/" }
+  }
+}
